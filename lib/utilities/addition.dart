@@ -22,7 +22,7 @@ class _AdditionState extends State<Addition> {
   @override
   void initState() {
     _bannerAd = BannerAd(
-      adUnitId: AdHelper.banner_additions,
+      adUnitId: AdHelper.bannerAdUnitId,
       request: AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(

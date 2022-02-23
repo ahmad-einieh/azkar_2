@@ -5,13 +5,13 @@ class AdHelper {
     if (Platform.isAndroid) {
       return 'ca-app-pub-3940256099942544/6300978111';
     } else if (Platform.isIOS) {
-      return 'ca-app-pub-3940256099942544/2934735716';
+      return 'ca-app-pub-9942057001003051/9483257716';
     } else {
       throw new UnsupportedError('Unsupported platform');
     }
   }
 
-  static String get banner_home_page {
+  /*static String get banner_home_page {
     if (Platform.isAndroid) {
       return 'ca-app-pub-8109222512481156/2935828258';
     } else if (Platform.isIOS) {
@@ -79,18 +79,18 @@ class AdHelper {
     } else {
       throw new UnsupportedError('Unsupported platform');
     }
-  }
+  }*/
 
   static String get interstitialAdUnitId {
     if (Platform.isAndroid) {
-      return "ca-app-pub-8109222512481156/4526313341";
+      return "ca-app-pub-9942057001003051/8531809134";
     } else if (Platform.isIOS) {
       return "ca-app-pub-8109222512481156/3061543659";
     } else {
       throw new UnsupportedError("Unsupported platform");
     }
   }
-  static String get interstitialAdUnitId1 {
+  /*static String get interstitialAdUnitId1 {
     if (Platform.isAndroid) {
       return "ca-app-pub-8109222512481156/1602790622";
     } else if (Platform.isIOS) {
@@ -98,7 +98,7 @@ class AdHelper {
     } else {
       throw new UnsupportedError("Unsupported platform");
     }
-  }
+  }*/
 /*static String get interstitialAdUnitId {
     if (Platform.isAndroid) {
       return "ca-app-pub-3940256099942544/1033173712";

@@ -24,7 +24,7 @@ class _AboutState extends State<About> {
   @override
   void initState() {
     _bannerAd = BannerAd(
-      adUnitId: AdHelper.banner_about,
+      adUnitId: AdHelper.bannerAdUnitId,
       request: AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(

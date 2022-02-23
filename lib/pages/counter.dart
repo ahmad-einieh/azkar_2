@@ -38,7 +38,7 @@ class _CounterState extends State<Counter> {
   @override
   void initState() {
     _bannerAd = BannerAd(
-      adUnitId: AdHelper.banner_counter,
+      adUnitId: AdHelper.bannerAdUnitId,
       request: AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(
@@ -57,7 +57,7 @@ class _CounterState extends State<Counter> {
 
     _bannerAd.load();
     InterstitialAd.load(
-      adUnitId: AdHelper.interstitialAdUnitId1,
+      adUnitId: AdHelper.interstitialAdUnitId,
       request: AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (ad) {

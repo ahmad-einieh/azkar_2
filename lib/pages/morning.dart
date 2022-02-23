@@ -95,7 +95,7 @@ class _MorningState extends State<Morning> {
   @override
   void initState() {
     _bannerAd = BannerAd(
-      adUnitId: AdHelper.banner_morning,
+      adUnitId: AdHelper.bannerAdUnitId,
       request: AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(

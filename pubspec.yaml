@@ -29,15 +29,15 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  percent_indicator: ^3.0.1
-  step_progress_indicator: ^1.0.1
-  google_mobile_ads: ^0.13.0
-  vibration: ^1.7.3
-  flutter_launcher_icons: ^0.9.0
-  flutter_svg: ^0.22.0
-  url_launcher: ^6.0.3
-  share: ^2.0.4
+  cupertino_icons:
+  percent_indicator:
+  step_progress_indicator:
+  google_mobile_ads:
+  vibration:
+  flutter_launcher_icons:
+  flutter_svg:
+  url_launcher:
+  share:
 
 dev_dependencies:
   flutter_test:

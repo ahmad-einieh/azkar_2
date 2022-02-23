@@ -40,7 +40,7 @@ class _PrayState extends State<Pray> {
   @override
   void initState() {
     _bannerAd = BannerAd(
-      adUnitId: AdHelper.banner_pray,
+      adUnitId: AdHelper.bannerAdUnitId,
       request: AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(

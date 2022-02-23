@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     _bannerAd = BannerAd(
-      adUnitId: AdHelper.banner_home_page,
+      adUnitId: AdHelper.bannerAdUnitId,
       request: AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(
